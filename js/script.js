@@ -35,14 +35,14 @@ scrollLeftBtn.addEventListener('click', () => {
 imageWrap.addEventListener('scroll', () => {
     const maxScrollLeft = imageWrap.scrollWidth - imageWrap.clientWidth;
 
-    // Show left button if not at the beginning
+    // Show left button if not at the beginning..
     if (imageWrap.scrollLeft > 0) {
         scrollLeftBtn.classList.remove('hidden');
     } else {
         scrollLeftBtn.classList.add('hidden');
     }
 
-    // Hide right button if reached the end
+    // Hide right button if reached the end..
     if (imageWrap.scrollLeft >= maxScrollLeft - 1) {
         scrollRightBtn.classList.add('hidden');
     } else {
