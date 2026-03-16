@@ -26,7 +26,7 @@ scrollRightBtn.addEventListener('click', () => {
     imageWrap.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 });
 
-// Scroll to the left...
+// Scroll to the left
 scrollLeftBtn.addEventListener('click', () => {
     imageWrap.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
 });
