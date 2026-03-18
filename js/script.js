@@ -21,7 +21,7 @@ const scrollLeftBtn = document.getElementById('small-icon-left');
 // Scroll amount (you can tweak this as needed)
 const scrollAmount = 1200;
 
-// Scroll to the right...
+// Scroll to the right
 scrollRightBtn.addEventListener('click', () => {
     imageWrap.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 });
